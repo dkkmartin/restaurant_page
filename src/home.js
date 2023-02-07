@@ -1,4 +1,4 @@
-import img1 from './img/pizza-wide-1-copy.jpg'
+import img1 from './img/pizza-menu-1-copy2.jpg'
 import img2 from './img/pizza-slice-copy.jpg'
 import img3 from './img/home-bake-2-copy.jpg'
 import img4 from './img/pizza-menu-1-copy.jpg'

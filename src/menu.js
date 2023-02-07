@@ -1,0 +1,5 @@
+function loadMenu () {
+
+}
+
+export { loadMenu }

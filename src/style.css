@@ -51,6 +51,19 @@ header h1 {
   margin: 1%;
 }
 
+.home:hover,
+.menu:hover,
+.about:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  background-color: #5a7585;
+}
+
+.home,
+.menu,
+.about {
+  transition: transform 0.5s;
+}
 /* home */
 
 #content {
