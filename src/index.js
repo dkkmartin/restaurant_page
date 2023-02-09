@@ -1,5 +1,6 @@
 import { loadHome } from './home'
 import { loadMenu } from './menu'
+import { loadAbout } from './about'
 import './style.css'
 
 (function listeners () {
@@ -11,9 +12,10 @@ import './style.css'
     removeContent()
     loadMenu()
   })
-  // document.querySelector('.about').addEventListener('click', () => {
-  //   loadMenu()
-  // })
+  document.querySelector('.about').addEventListener('click', () => {
+    removeContent()
+    loadAbout()
+  })
 })()
 
 function removeContent () {

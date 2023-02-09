@@ -64,7 +64,8 @@ header h1 {
 .about {
   transition: transform 0.5s;
 }
-/* home */
+
+/* content defaults */
 
 #content {
   max-width: 1100px;
@@ -80,7 +81,10 @@ header h1 {
 
 #content p {
   line-height: 1.7em;
+  text-align: center;
 }
+
+/* home */
 
 .text_con {
   display: flex;
@@ -124,4 +128,15 @@ header h1 {
 .menu_item3 img {
   border: 1px solid black;
   border-radius: 5px;
+}
+
+/* about*/
+
+.about_con h1,
+.about_con h3 {
+  text-align: center;
+}
+
+.p_time {
+  font-weight: bold;
 }

@@ -42,6 +42,7 @@ function loadMenu () {
 
   for (let i = 1; i < 4; i++) {
     const contentImg = document.querySelector(`.menu_item${i}`)
+    // eslint-disable-next-line no-undef
     const domElementImg = new Image()
     domElementImg.src = images[i - 1]
     contentImg.append(domElementImg)
